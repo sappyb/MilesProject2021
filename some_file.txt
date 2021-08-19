@@ -1,0 +1,205 @@
+2021-08-17 20:31:33,550 WARNING  | Overriding opt["model_file"] to /home/milesproject2021/.local/lib/python3.7/site-packages/data/models/blender/blender_90M/model (previously: /checkpoint/edinan/20200210/baseline_BST_retnref/lr=7.5e-06_attention-dropout=0.0_relu-dropout=0.0/model)
+2021-08-17 20:31:33,551 WARNING  | Loading model with `--beam-block-full-context false`
+2021-08-17 20:31:33,553 INFO     | loading dictionary from /home/milesproject2021/.local/lib/python3.7/site-packages/data/models/blender/blender_90M/model.dict
+2021-08-17 20:31:33,664 INFO     | num words = 54944
+2021-08-17 20:31:33,720 INFO     | TransformerGenerator: full interactive mode on.
+2021-08-17 20:31:34,571 WARNING  | DEPRECATED: XLM should only be used for backwards compatibility, as it involves a less-stable layernorm operation.
+2021-08-17 20:31:35,113 INFO     | Total parameters: 87,508,992 (87,508,992 trainable)
+2021-08-17 20:31:35,114 INFO     | Loading existing model params from /home/milesproject2021/.local/lib/python3.7/site-packages/data/models/blender/blender_90M/model
+2021-08-17 20:31:35,378 INFO     | Opt:
+2021-08-17 20:31:35,379 INFO     |     activation: gelu
+2021-08-17 20:31:35,379 INFO     |     adafactor_eps: '[1e-30, 0.001]'
+2021-08-17 20:31:35,379 INFO     |     adam_eps: 1e-08
+2021-08-17 20:31:35,379 INFO     |     add_p1_after_newln: False
+2021-08-17 20:31:35,379 INFO     |     aggregate_micro: False
+2021-08-17 20:31:35,379 INFO     |     allow_missing_init_opts: False
+2021-08-17 20:31:35,379 INFO     |     attention_dropout: 0.0
+2021-08-17 20:31:35,379 INFO     |     batchsize: 16
+2021-08-17 20:31:35,379 INFO     |     beam_block_full_context: False
+2021-08-17 20:31:35,379 INFO     |     beam_block_list_filename: None
+2021-08-17 20:31:35,379 INFO     |     beam_block_ngram: 3
+2021-08-17 20:31:35,379 INFO     |     beam_context_block_ngram: 3
+2021-08-17 20:31:35,379 INFO     |     beam_delay: 30
+2021-08-17 20:31:35,379 INFO     |     beam_length_penalty: 0.65
+2021-08-17 20:31:35,379 INFO     |     beam_min_length: 20
+2021-08-17 20:31:35,379 INFO     |     beam_size: 10
+2021-08-17 20:31:35,379 INFO     |     betas: '[0.9, 0.999]'
+2021-08-17 20:31:35,379 INFO     |     bpe_add_prefix_space: None
+2021-08-17 20:31:35,379 INFO     |     bpe_debug: False
+2021-08-17 20:31:35,379 INFO     |     bpe_dropout: None
+2021-08-17 20:31:35,379 INFO     |     bpe_merge: None
+2021-08-17 20:31:35,379 INFO     |     bpe_vocab: None
+2021-08-17 20:31:35,379 INFO     |     compute_tokenized_bleu: False
+2021-08-17 20:31:35,379 INFO     |     datapath: /home/milesproject2021/.local/lib/python3.7/site-packages/data
+2021-08-17 20:31:35,379 INFO     |     datatype: train
+2021-08-17 20:31:35,379 INFO     |     delimiter: '\n'
+2021-08-17 20:31:35,379 INFO     |     dict_class: parlai.core.dict:DictionaryAgent
+2021-08-17 20:31:35,379 INFO     |     dict_endtoken: __end__
+2021-08-17 20:31:35,379 INFO     |     dict_file: /home/milesproject2021/.local/lib/python3.7/site-packages/data/models/blender/blender_90M/model.dict
+2021-08-17 20:31:35,379 INFO     |     dict_include_test: False
+2021-08-17 20:31:35,379 INFO     |     dict_include_valid: False
+2021-08-17 20:31:35,379 INFO     |     dict_initpath: None
+2021-08-17 20:31:35,379 INFO     |     dict_language: english
+2021-08-17 20:31:35,379 INFO     |     dict_loaded: True
+2021-08-17 20:31:35,380 INFO     |     dict_lower: True
+2021-08-17 20:31:35,380 INFO     |     dict_max_ngram_size: -1
+2021-08-17 20:31:35,380 INFO     |     dict_maxexs: -1
+2021-08-17 20:31:35,380 INFO     |     dict_maxtokens: -1
+2021-08-17 20:31:35,380 INFO     |     dict_minfreq: 0
+2021-08-17 20:31:35,380 INFO     |     dict_nulltoken: __null__
+2021-08-17 20:31:35,380 INFO     |     dict_starttoken: __start__
+2021-08-17 20:31:35,380 INFO     |     dict_textfields: text,labels
+2021-08-17 20:31:35,380 INFO     |     dict_tokenizer: bpe
+2021-08-17 20:31:35,380 INFO     |     dict_unktoken: __unk__
+2021-08-17 20:31:35,380 INFO     |     display_add_fields: 
+2021-08-17 20:31:35,380 INFO     |     display_examples: False
+2021-08-17 20:31:35,380 INFO     |     display_prettify: False
+2021-08-17 20:31:35,380 INFO     |     download_path: None
+2021-08-17 20:31:35,380 INFO     |     dropout: 0.1
+2021-08-17 20:31:35,380 INFO     |     dynamic_batching: None
+2021-08-17 20:31:35,380 INFO     |     embedding_projection: random
+2021-08-17 20:31:35,380 INFO     |     embedding_size: 512
+2021-08-17 20:31:35,380 INFO     |     embedding_type: random
+2021-08-17 20:31:35,380 INFO     |     embeddings_scale: True
+2021-08-17 20:31:35,380 INFO     |     eval_batchsize: None
+2021-08-17 20:31:35,380 INFO     |     evaltask: None
+2021-08-17 20:31:35,380 INFO     |     ffn_size: 2048
+2021-08-17 20:31:35,380 INFO     |     force_fp16_tokens: True
+2021-08-17 20:31:35,380 INFO     |     fp16: True
+2021-08-17 20:31:35,380 INFO     |     fp16_impl: safe
+2021-08-17 20:31:35,380 INFO     |     gpu: -1
+2021-08-17 20:31:35,380 INFO     |     gradient_clip: 0.1
+2021-08-17 20:31:35,380 INFO     |     hide_labels: False
+2021-08-17 20:31:35,380 INFO     |     history_add_global_end_token: None
+2021-08-17 20:31:35,380 INFO     |     history_reversed: False
+2021-08-17 20:31:35,380 INFO     |     history_size: -1
+2021-08-17 20:31:35,380 INFO     |     image_cropsize: 224
+2021-08-17 20:31:35,380 INFO     |     image_mode: raw
+2021-08-17 20:31:35,380 INFO     |     image_size: 256
+2021-08-17 20:31:35,380 INFO     |     include_checked_sentence: True
+2021-08-17 20:31:35,380 INFO     |     include_knowledge: True
+2021-08-17 20:31:35,380 INFO     |     include_knowledge_separator: False
+2021-08-17 20:31:35,380 INFO     |     inference: beam
+2021-08-17 20:31:35,380 INFO     |     init_model: /checkpoint/parlai/zoo/new_reddit/newreddit_trained20190909_usedfordodeca/model
+2021-08-17 20:31:35,380 INFO     |     init_opt: None
+2021-08-17 20:31:35,380 INFO     |     interactive_mode: True
+2021-08-17 20:31:35,381 INFO     |     interactive_task: True
+2021-08-17 20:31:35,381 INFO     |     invsqrt_lr_decay_gamma: -1
+2021-08-17 20:31:35,381 INFO     |     is_debug: False
+2021-08-17 20:31:35,381 INFO     |     label_truncate: 128
+2021-08-17 20:31:35,381 INFO     |     label_type: response
+2021-08-17 20:31:35,381 INFO     |     learn_positional_embeddings: True
+2021-08-17 20:31:35,381 INFO     |     learningrate: 7.5e-06
+2021-08-17 20:31:35,381 INFO     |     local_human_candidates_file: None
+2021-08-17 20:31:35,381 INFO     |     log_every_n_secs: 2
+2021-08-17 20:31:35,381 INFO     |     log_keep_fields: all
+2021-08-17 20:31:35,381 INFO     |     loglevel: info
+2021-08-17 20:31:35,381 INFO     |     lr_scheduler: reduceonplateau
+2021-08-17 20:31:35,381 INFO     |     lr_scheduler_decay: 0.5
+2021-08-17 20:31:35,381 INFO     |     lr_scheduler_patience: 3
+2021-08-17 20:31:35,381 INFO     |     max_lr_steps: -1
+2021-08-17 20:31:35,381 INFO     |     max_train_time: -1
+2021-08-17 20:31:35,381 INFO     |     metrics: default
+2021-08-17 20:31:35,381 INFO     |     model: transformer/generator
+2021-08-17 20:31:35,381 INFO     |     model_file: /home/milesproject2021/.local/lib/python3.7/site-packages/data/models/blender/blender_90M/model
+2021-08-17 20:31:35,381 INFO     |     model_parallel: False
+2021-08-17 20:31:35,381 INFO     |     momentum: 0
+2021-08-17 20:31:35,381 INFO     |     multitask_weights: '[1.0, 3.0, 3.0, 3.0]'
+2021-08-17 20:31:35,381 INFO     |     n_decoder_layers: -1
+2021-08-17 20:31:35,381 INFO     |     n_encoder_layers: -1
+2021-08-17 20:31:35,381 INFO     |     n_heads: 16
+2021-08-17 20:31:35,381 INFO     |     n_layers: 8
+2021-08-17 20:31:35,381 INFO     |     n_positions: 512
+2021-08-17 20:31:35,381 INFO     |     n_segments: 0
+2021-08-17 20:31:35,381 INFO     |     nesterov: True
+2021-08-17 20:31:35,381 INFO     |     no_cuda: False
+2021-08-17 20:31:35,381 INFO     |     num_epochs: -1
+2021-08-17 20:31:35,381 INFO     |     num_topics: 5
+2021-08-17 20:31:35,381 INFO     |     numthreads: 1
+2021-08-17 20:31:35,381 INFO     |     nus: [0.7]
+2021-08-17 20:31:35,381 INFO     |     optimizer: adamax
+2021-08-17 20:31:35,381 INFO     |     outfile: 
+2021-08-17 20:31:35,381 INFO     |     output_scaling: 1.0
+2021-08-17 20:31:35,381 INFO     |     override: "{'model_file': '/home/milesproject2021/.local/lib/python3.7/site-packages/data/models/blender/blender_90M/model'}"
+2021-08-17 20:31:35,381 INFO     |     parlai_home: /private/home/edinan/ParlAI
+2021-08-17 20:31:35,381 INFO     |     person_tokens: False
+2021-08-17 20:31:35,381 INFO     |     rank_candidates: False
+2021-08-17 20:31:35,381 INFO     |     relu_dropout: 0.0
+2021-08-17 20:31:35,381 INFO     |     save_after_valid: True
+2021-08-17 20:31:35,382 INFO     |     save_every_n_secs: 60.0
+2021-08-17 20:31:35,382 INFO     |     save_format: conversations
+2021-08-17 20:31:35,382 INFO     |     share_word_embeddings: True
+2021-08-17 20:31:35,382 INFO     |     short_final_eval: False
+2021-08-17 20:31:35,382 INFO     |     show_advanced_args: False
+2021-08-17 20:31:35,382 INFO     |     single_turn: False
+2021-08-17 20:31:35,382 INFO     |     skip_generation: False
+2021-08-17 20:31:35,382 INFO     |     special_tok_lst: None
+2021-08-17 20:31:35,382 INFO     |     split_lines: False
+2021-08-17 20:31:35,382 INFO     |     starttime: Feb10_07-25
+2021-08-17 20:31:35,382 INFO     |     task: internal:blended_skill_talk,wizard_of_wikipedia,convai2,empathetic_dialogues
+2021-08-17 20:31:35,382 INFO     |     temperature: 1.0
+2021-08-17 20:31:35,382 INFO     |     tensorboard_log: False
+2021-08-17 20:31:35,382 INFO     |     text_truncate: 512
+2021-08-17 20:31:35,382 INFO     |     topk: 10
+2021-08-17 20:31:35,382 INFO     |     topp: 0.9
+2021-08-17 20:31:35,382 INFO     |     train_experiencer_only: False
+2021-08-17 20:31:35,382 INFO     |     truncate: -1
+2021-08-17 20:31:35,382 INFO     |     update_freq: 1
+2021-08-17 20:31:35,382 INFO     |     use_reply: label
+2021-08-17 20:31:35,382 INFO     |     validation_cutoff: 1.0
+2021-08-17 20:31:35,382 INFO     |     validation_every_n_epochs: 0.25
+2021-08-17 20:31:35,382 INFO     |     validation_every_n_secs: -1
+2021-08-17 20:31:35,382 INFO     |     validation_max_exs: 20000
+2021-08-17 20:31:35,382 INFO     |     validation_metric: ppl
+2021-08-17 20:31:35,382 INFO     |     validation_metric_mode: min
+2021-08-17 20:31:35,382 INFO     |     validation_patience: 15
+2021-08-17 20:31:35,382 INFO     |     validation_share_agent: False
+2021-08-17 20:31:35,382 INFO     |     variant: xlm
+2021-08-17 20:31:35,382 INFO     |     verbose: False
+2021-08-17 20:31:35,382 INFO     |     warmup_rate: 0.0001
+2021-08-17 20:31:35,382 INFO     |     warmup_updates: -1
+2021-08-17 20:31:35,382 INFO     |     weight_decay: None
+Enter [DONE] if you want to end the episode, [EXIT] to quit.
+2021-08-17 20:31:35,426 INFO     | creating task(s): interactive
+Enter Your Message: CHAT DONE 
+Here in logger 1
+Here in logger 2
+/home/milesproject2021/.local/lib/python3.7/site-packages/torch/_tensor.py:575: UserWarning: floor_divide is deprecated, and will be removed in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values.
+To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor'). (Triggered internally at  /pytorch/aten/src/ATen/native/BinaryOps.cpp:467.)
+  return torch.floor_divide(self, other)
+/home/milesproject2021/.local/lib/python3.7/site-packages/torch/_tensor.py:575: UserWarning: floor_divide is deprecated, and will be removed in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values.
+To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor'). (Triggered internally at  /pytorch/aten/src/ATen/native/BinaryOps.cpp:467.)
+  return torch.floor_divide(self, other)
+/home/milesproject2021/.local/lib/python3.7/site-packages/torch/_tensor.py:575: UserWarning: floor_divide is deprecated, and will be removed in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values.
+To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor'). (Triggered internally at  /pytorch/aten/src/ATen/native/BinaryOps.cpp:467.)
+  return torch.floor_divide(self, other)
+/home/milesproject2021/.local/lib/python3.7/site-packages/torch/_tensor.py:575: UserWarning: floor_divide is deprecated, and will be removed in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values.
+To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor'). (Triggered internally at  /pytorch/aten/src/ATen/native/BinaryOps.cpp:467.)
+  return torch.floor_divide(self, other)
+/home/milesproject2021/.local/lib/python3.7/site-packages/torch/_tensor.py:575: UserWarning: floor_divide is deprecated, and will be removed in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values.
+To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor'). (Triggered internally at  /pytorch/aten/src/ATen/native/BinaryOps.cpp:467.)
+  return torch.floor_divide(self, other)
+/home/milesproject2021/.local/lib/python3.7/site-packages/torch/_tensor.py:575: UserWarning: floor_divide is deprecated, and will be removed in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values.
+To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor'). (Triggered internally at  /pytorch/aten/src/ATen/native/BinaryOps.cpp:467.)
+  return torch.floor_divide(self, other)
+/home/milesproject2021/.local/lib/python3.7/site-packages/torch/_tensor.py:575: UserWarning: floor_divide is deprecated, and will be removed in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values.
+To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor'). (Triggered internally at  /pytorch/aten/src/ATen/native/BinaryOps.cpp:467.)
+  return torch.floor_divide(self, other)
+/home/milesproject2021/.local/lib/python3.7/site-packages/torch/_tensor.py:575: UserWarning: floor_divide is deprecated, and will be removed in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values.
+To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor'). (Triggered internally at  /pytorch/aten/src/ATen/native/BinaryOps.cpp:467.)
+  return torch.floor_divide(self, other)
+/home/milesproject2021/.local/lib/python3.7/site-packages/torch/_tensor.py:575: UserWarning: floor_divide is deprecated, and will be removed in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values.
+To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor'). (Triggered internally at  /pytorch/aten/src/ATen/native/BinaryOps.cpp:467.)
+  return torch.floor_divide(self, other)
+/home/milesproject2021/.local/lib/python3.7/site-packages/torch/_tensor.py:575: UserWarning: floor_divide is deprecated, and will be removed in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values.
+To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor'). (Triggered internally at  /pytorch/aten/src/ATen/native/BinaryOps.cpp:467.)
+  return torch.floor_divide(self, other)
+/home/milesproject2021/.local/lib/python3.7/site-packages/torch/_tensor.py:575: UserWarning: floor_divide is deprecated, and will be removed in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values.
+To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor'). (Triggered internally at  /pytorch/aten/src/ATen/native/BinaryOps.cpp:467.)
+  return torch.floor_divide(self, other)
+/home/milesproject2021/.local/lib/python3.7/site-packages/torch/_tensor.py:575: UserWarning: floor_divide is deprecated, and will be removed in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values.
+To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor'). (Triggered internally at  /pytorch/aten/src/ATen/native/BinaryOps.cpp:467.)
+  return torch.floor_divide(self, other)
+/home/milesproject2021/.local/lib/python3.7/site-packages/torch/_tensor.py:575: UserWarning: floor_divide is deprecated, and will be removed in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values.
+To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor'). (Triggered internally at  /pytorch/aten/src/ATen/native/BinaryOps.cpp:467.)
+  return torch.floor_divide(self, other)
